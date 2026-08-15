@@ -1,0 +1,28 @@
+{
+  "digest": "sha256:526d8880680a14d97d88da0e2b2fb23ef311b2a52281244021e3b040233e9ad0",
+  "entries": [
+    {
+      "manifest": "h2_0p740_ovp_ceo.json",
+      "manifest_digest": "sha256:595c2ce9dbedaf622ee41a5698455c96bb045a44fb8cbadd49e7e3e2e5599919",
+      "n_electrons": 2,
+      "n_qubits": 4,
+      "pool_digest": "sha256:45fadaf1cf7e7c433eb285ce2ef1973b51961166bb7ee8c6be5e13b394594575"
+    },
+    {
+      "manifest": "h4_1p000_ovp_ceo.json",
+      "manifest_digest": "sha256:0d14700828aa6fdbd599fb63143b992801aea9106760570c4b8cb400a341cd8d",
+      "n_electrons": 4,
+      "n_qubits": 8,
+      "pool_digest": "sha256:6cf36978cdb4834b83e71a6eda0e14f8ae7d988ca81694608851a04d8ea81823"
+    },
+    {
+      "manifest": "h6_1p000_ovp_ceo.json",
+      "manifest_digest": "sha256:c1f52788f004dc2b5ce077f81c1cf5636d6ab803eb5aa9664d176fcf3112f3d5",
+      "n_electrons": 6,
+      "n_qubits": 12,
+      "pool_digest": "sha256:5601b65c0e0550bf6df5e74a5e13219b0a5044e52ed28f107de0598597afaf2e"
+    }
+  ],
+  "schema": "quemb.ceo-ovp-manifest-registry/v1",
+  "schema_version": 1
+}

@@ -1,0 +1,46 @@
+{
+  "reference_energies": {
+    "h4": {
+      "adapt_fast": -2.1661448638,
+      "adapt_matrix_free": -2.1661448675,
+      "fci_be": -2.1663874445
+    },
+    "f2": {
+      "adapt_fast": -195.9728739586,
+      "adapt_matrix_free": -195.9728724736,
+      "fci_be": -196.0442447354
+    }
+  },
+  "tolerance_mha": 0.5,
+  "results": [
+    {
+      "system": "h4",
+      "ansatz": "adapt_fast",
+      "energy_hartree": -2.166144857641497,
+      "difference_from_reference_mha": 6.158503040865071e-06,
+      "runtime_seconds": 10.313589958001103
+    },
+    {
+      "system": "h4",
+      "ansatz": "adapt_matrix_free",
+      "energy_hartree": -2.1661448641572583,
+      "difference_from_reference_mha": 3.3427416390452436e-06,
+      "runtime_seconds": 10.355887333000283
+    },
+    {
+      "system": "f2",
+      "ansatz": "adapt_fast",
+      "energy_hartree": -195.98454887888755,
+      "difference_from_reference_mha": 11.674920287561008,
+      "runtime_seconds": 3681.6501107080003
+    },
+    {
+      "system": "f2",
+      "ansatz": "adapt_matrix_free",
+      "energy_hartree": -195.98354924511926,
+      "difference_from_reference_mha": 10.6767715192575,
+      "runtime_seconds": 3079.8933817079997
+    }
+  ],
+  "passed": false
+}

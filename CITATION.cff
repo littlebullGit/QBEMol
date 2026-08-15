@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the accompanying paper."
+title: "QBEMol: Variational Quantum Eigensolver-based Quantum Bootstrap Embedding for Molecules"
+authors:
+  - family-names: Peng
+    given-names: Derek
+    affiliation: "Brown University, Providence, RI, USA"
+repository-code: "https://github.com/littlebullGit/QBEMol"
+license: Apache-2.0
+year: 2026
+preferred-citation:
+  type: article
+  title: "Variational Quantum Eigensolver-Based Quantum Bootstrap Embedding for Molecules"
+  authors:
+    - family-names: Peng
+      given-names: Derek
+      affiliation: "Brown University, Providence, RI, USA"
+  year: 2026

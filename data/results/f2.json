@@ -1,0 +1,486 @@
+{
+  "basis": "STO-3G",
+  "data_kind": "normalized computational results",
+  "embedding": {
+    "fragment_count": 2,
+    "order": "BE1"
+  },
+  "geometry": {
+    "bond_distance_angstrom": 1.42
+  },
+  "provenance": {
+    "execution_environment": "local macOS workstation",
+    "source_artifacts": [
+      {
+        "sha256": "sha256:546a897c067cbfc5b69330017080e914346721e9568b5941052026dbbf651825",
+        "workspace_path": "results_section_bundle/f2_beam_lookahead_real_be_rerun_tty_20260307_2233_experiment_results.json"
+      },
+      {
+        "sha256": "sha256:0dc8741bd6ea14365c39f0802eb70c5937f27ddb90bfbb3b78d77fa41f31fb77",
+        "workspace_path": "results_section_bundle/f2_beam_lookahead_real_be_rerun_tty_20260307_2233.log"
+      },
+      {
+        "sha256": "sha256:e00f33866f52dc5955c77c2752d3f483781967838a0d5e84abed3a95a62a3572",
+        "workspace_path": "results_section_bundle/f2_real_pair_channel_selector_experiment_results.json"
+      }
+    ]
+  },
+  "results": {
+    "fci_be": {
+      "bonding_sigma_pair": 0.11444170578674773,
+      "energy_ha": -196.0442447354369,
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 0.01096649,
+          "embedding_potentials": [
+            0.0
+          ],
+          "energy_ha": -196.0460203401,
+          "iteration": 0,
+          "timestamp": "2026-03-07T22:31:54.250923"
+        },
+        {
+          "chemical_potential": 0.01244409,
+          "density_error": 0.003543927,
+          "embedding_potentials": [
+            0.01244409
+          ],
+          "energy_ha": -196.044811164,
+          "iteration": 1,
+          "timestamp": "2026-03-07T22:31:54.260612"
+        },
+        {
+          "chemical_potential": 0.01838556,
+          "density_error": 1.60206e-06,
+          "embedding_potentials": [
+            0.01838556
+          ],
+          "energy_ha": -196.044244481,
+          "iteration": 2,
+          "timestamp": "2026-03-07T22:31:54.269198"
+        },
+        {
+          "chemical_potential": 0.01838287,
+          "density_error": 3.466134e-10,
+          "embedding_potentials": [
+            0.01838287
+          ],
+          "energy_ha": -196.0442447354,
+          "iteration": 3,
+          "timestamp": "2026-03-07T22:31:54.278697"
+        }
+      ]
+    },
+    "first_decisive_selector_event": {
+      "iteration": 8,
+      "pair_channel_summary": {
+        "activated_pair_gap_to_second_mha": 2.5366282537078177,
+        "best_activated_pair_channel": 2,
+        "best_activated_pair_double_excitation": "2a,2b->5a,5b",
+        "best_activated_pair_double_idx": 22,
+        "best_dormant_pair_double_idx": 28,
+        "best_dormant_pair_gap_vs_22_mha": 1.7805421053935788,
+        "best_pair_channel": 2,
+        "best_pair_channel_status": "activated",
+        "best_pair_double_excitation": "2a,2b->5a,5b",
+        "best_pair_double_idx": 22,
+        "best_pair_probe_energy": -103.01693862088214,
+        "best_pair_sigma_pair_delta": 0.10597196198669923,
+        "selector_selected_idx": 22,
+        "selector_selected_rank": 5,
+        "tracked_22_gradient_rank": 5,
+        "tracked_22_pair_probe_rank": 1
+      },
+      "pair_completion_results": [
+        {
+          "alpha_present": true,
+          "alpha_single_excitation": "0a->5a",
+          "alpha_single_idx": 0,
+          "beta_present": true,
+          "beta_single_excitation": "0b->5b",
+          "beta_single_idx": 5,
+          "double_abs_gradient": 0.01582906162171629,
+          "double_excitation": "0a,0b->5a,5b",
+          "double_gradient": -0.01582906162171629,
+          "double_gradient_rank": 12,
+          "double_idx": 10,
+          "double_in_selector_shortlist": false,
+          "double_present": false,
+          "fidelity_after_probe": 0.879308446254192,
+          "occupied_orbital_idx": 0,
+          "occupied_orbital_label": "1sigma_g",
+          "pair_probe_gap_mha": 2.5366282537078177,
+          "pair_probe_rank": 4,
+          "probe_backend": "direct_sv",
+          "probe_elapsed_s": 1.8915264160605147,
+          "probe_energy": -103.01440199262844,
+          "probe_nfev": 123,
+          "probe_nit": 13,
+          "probe_success": true,
+          "sigma_pair_after_probe": 1.8313372632784086,
+          "sigma_pair_delta": 0.07115485492743456,
+          "single_count": 2,
+          "status": "activated",
+          "target_orbital_idx": 5,
+          "target_orbital_label": "2sigma_u*"
+        },
+        {
+          "alpha_present": true,
+          "alpha_single_excitation": "1a->5a",
+          "alpha_single_idx": 1,
+          "beta_present": true,
+          "beta_single_excitation": "1b->5b",
+          "beta_single_idx": 6,
+          "double_abs_gradient": 0.0539213062453916,
+          "double_excitation": "1a,1b->5a,5b",
+          "double_gradient": -0.0539213062453916,
+          "double_gradient_rank": 2,
+          "double_idx": 16,
+          "double_in_selector_shortlist": false,
+          "double_present": true,
+          "occupied_orbital_idx": 1,
+          "occupied_orbital_label": "1sigma_u*",
+          "probe_skipped_reason": "already_present",
+          "single_count": 2,
+          "status": "completed",
+          "target_orbital_idx": 5,
+          "target_orbital_label": "2sigma_u*"
+        },
+        {
+          "alpha_present": true,
+          "alpha_single_excitation": "2a->5a",
+          "alpha_single_idx": 2,
+          "beta_present": true,
+          "beta_single_excitation": "2b->5b",
+          "beta_single_idx": 7,
+          "double_abs_gradient": 0.04108795788202542,
+          "double_excitation": "2a,2b->5a,5b",
+          "double_gradient": -0.04108795788202542,
+          "double_gradient_rank": 5,
+          "double_idx": 22,
+          "double_in_selector_shortlist": true,
+          "double_present": false,
+          "fidelity_after_probe": 0.8959075714585399,
+          "occupied_orbital_idx": 2,
+          "occupied_orbital_label": "2sigma_g",
+          "pair_probe_gap_mha": 0.0,
+          "pair_probe_rank": 1,
+          "probe_backend": "direct_sv",
+          "probe_elapsed_s": 2.0629368749214336,
+          "probe_energy": -103.01693862088214,
+          "probe_nfev": 151,
+          "probe_nit": 16,
+          "probe_success": true,
+          "sigma_pair_after_probe": 1.8661543703376733,
+          "sigma_pair_delta": 0.10597196198669923,
+          "single_count": 2,
+          "status": "activated",
+          "target_orbital_idx": 5,
+          "target_orbital_label": "2sigma_u*"
+        },
+        {
+          "alpha_present": false,
+          "alpha_single_excitation": "3a->5a",
+          "alpha_single_idx": 3,
+          "beta_present": false,
+          "beta_single_excitation": "3b->5b",
+          "beta_single_idx": 8,
+          "double_abs_gradient": 0.02571763958911784,
+          "double_excitation": "3a,3b->5a,5b",
+          "double_gradient": -0.02571763958911784,
+          "double_gradient_rank": 6,
+          "double_idx": 28,
+          "double_in_selector_shortlist": true,
+          "double_present": false,
+          "fidelity_after_probe": 0.8823066995834037,
+          "occupied_orbital_idx": 3,
+          "occupied_orbital_label": "2pi_u_x",
+          "pair_probe_gap_mha": 1.7805421053935788,
+          "pair_probe_rank": 2,
+          "probe_backend": "direct_sv",
+          "probe_elapsed_s": 1.5375448330305517,
+          "probe_energy": -103.01515807877675,
+          "probe_nfev": 123,
+          "probe_nit": 13,
+          "probe_success": true,
+          "sigma_pair_after_probe": 1.8386084281323223,
+          "sigma_pair_delta": 0.07842601978134822,
+          "single_count": 0,
+          "status": "dormant",
+          "target_orbital_idx": 5,
+          "target_orbital_label": "2sigma_u*"
+        },
+        {
+          "alpha_present": false,
+          "alpha_single_excitation": "4a->5a",
+          "alpha_single_idx": 4,
+          "beta_present": false,
+          "beta_single_excitation": "4b->5b",
+          "beta_single_idx": 9,
+          "double_abs_gradient": 0.025717639589117807,
+          "double_excitation": "4a,4b->5a,5b",
+          "double_gradient": -0.025717639589117807,
+          "double_gradient_rank": 7,
+          "double_idx": 34,
+          "double_in_selector_shortlist": false,
+          "double_present": false,
+          "fidelity_after_probe": 0.8823066995834034,
+          "occupied_orbital_idx": 4,
+          "occupied_orbital_label": "2pi_u_y",
+          "pair_probe_gap_mha": 1.7805421053935788,
+          "pair_probe_rank": 3,
+          "probe_backend": "direct_sv",
+          "probe_elapsed_s": 1.5079933329252526,
+          "probe_energy": -103.01515807877675,
+          "probe_nfev": 123,
+          "probe_nit": 13,
+          "probe_success": true,
+          "sigma_pair_after_probe": 1.8386084281323223,
+          "sigma_pair_delta": 0.07842601978134822,
+          "single_count": 0,
+          "status": "dormant",
+          "target_orbital_idx": 5,
+          "target_orbital_label": "2sigma_u*"
+        }
+      ],
+      "selected_excitation": "2a,2b->5a,5b",
+      "selected_operator_index": 22,
+      "selected_raw_gradient_rank": 5,
+      "shortlist": [
+        {
+          "abs_gradient": 0.09399887917144122,
+          "excitation": "0b->5b",
+          "gradient": 0.09399887917144122,
+          "idx": 5,
+          "probe_energy": -103.17982544335634,
+          "probe_message": "Optimization terminated successfully",
+          "probe_nfev": 242,
+          "probe_nit": 25,
+          "probe_success": true,
+          "rank": 1
+        },
+        {
+          "abs_gradient": 0.050356227018949706,
+          "excitation": "0a->5a",
+          "gradient": -0.050356227018949706,
+          "idx": 0,
+          "probe_energy": -103.17982486531695,
+          "probe_message": "Optimization terminated successfully",
+          "probe_nfev": 269,
+          "probe_nit": 28,
+          "probe_success": true,
+          "rank": 3
+        },
+        {
+          "abs_gradient": 0.047183298108503476,
+          "excitation": "2a,0b->5a,5b",
+          "gradient": 0.047183298108503476,
+          "idx": 20,
+          "probe_energy": -103.17982450847624,
+          "probe_message": "Optimization terminated successfully",
+          "probe_nfev": 126,
+          "probe_nit": 13,
+          "probe_success": true,
+          "rank": 4
+        },
+        {
+          "abs_gradient": 0.045742718921431766,
+          "excitation": "2a,2b->5a,5b",
+          "gradient": -0.045742718921431766,
+          "idx": 22,
+          "probe_energy": -103.18312297497148,
+          "probe_message": "Optimization terminated successfully",
+          "probe_nfev": 131,
+          "probe_nit": 14,
+          "probe_success": true,
+          "rank": 5
+        },
+        {
+          "abs_gradient": 0.025794190998425247,
+          "excitation": "3a,3b->5a,5b",
+          "gradient": -0.025794190998425247,
+          "idx": 28,
+          "probe_energy": -103.18053931394259,
+          "probe_message": "Optimization terminated successfully",
+          "probe_nfev": 121,
+          "probe_nit": 12,
+          "probe_success": true,
+          "rank": 6
+        }
+      ]
+    },
+    "greedy_adapt_vqe_be": {
+      "bonding_sigma_pair": 0.007388832882663232,
+      "energy_ha": -195.9728739586391,
+      "error_mha_vs_fci_be": 71.37077679780646,
+      "runtime_s": 146.51959158398677,
+      "selected_operator_indices": [
+        1,
+        2,
+        6,
+        7,
+        5,
+        0,
+        16,
+        5,
+        16
+      ],
+      "termination": "TerminationCriterion.CYCLICITY",
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 0.003988621,
+          "embedding_potentials": [
+            0.0
+          ],
+          "energy_ha": -195.9731964913,
+          "iteration": 0,
+          "timestamp": "2026-03-07T22:32:15.402684"
+        },
+        {
+          "chemical_potential": 0.00452604,
+          "density_error": 0.000657882,
+          "embedding_potentials": [
+            0.00452604
+          ],
+          "energy_ha": -195.9729266086,
+          "iteration": 1,
+          "timestamp": "2026-03-07T22:32:36.509382"
+        },
+        {
+          "chemical_potential": 0.00542001,
+          "density_error": 6.799123e-06,
+          "embedding_potentials": [
+            0.00542001
+          ],
+          "energy_ha": -195.9728752443,
+          "iteration": 2,
+          "timestamp": "2026-03-07T22:32:57.256521"
+        },
+        {
+          "chemical_potential": 0.00542935,
+          "density_error": 5.819014e-06,
+          "embedding_potentials": [
+            0.00542935
+          ],
+          "energy_ha": -195.9728704859,
+          "iteration": 3,
+          "timestamp": "2026-03-07T22:33:18.045332"
+        },
+        {
+          "chemical_potential": 0.0054293,
+          "density_error": 2.824238e-06,
+          "embedding_potentials": [
+            0.0054293
+          ],
+          "energy_ha": -195.9728739586,
+          "iteration": 4,
+          "timestamp": "2026-03-07T22:34:20.803248"
+        },
+        {
+          "chemical_potential": 0.0054293,
+          "density_error": 2.824238e-06,
+          "embedding_potentials": [
+            0.0054293
+          ],
+          "energy_ha": -195.9728739586,
+          "iteration": 5,
+          "timestamp": "2026-03-07T22:34:20.803318"
+        },
+        {
+          "chemical_potential": 0.0054293,
+          "density_error": 2.824238e-06,
+          "embedding_potentials": [
+            0.0054293
+          ],
+          "energy_ha": -195.9728739586,
+          "iteration": 6,
+          "timestamp": "2026-03-07T22:34:20.803356"
+        }
+      ]
+    },
+    "lookahead_adapt_vqe_be": {
+      "bonding_sigma_pair": 0.11445074330289828,
+      "energy_ha": -196.04424118910327,
+      "error_mha_vs_fci_be": 0.0035463336303109827,
+      "runtime_s": 1550.9491946669878,
+      "selected_operator_indices": [
+        1,
+        2,
+        6,
+        7,
+        5,
+        0,
+        16,
+        22,
+        7,
+        2,
+        28,
+        34,
+        0,
+        5,
+        10
+      ],
+      "termination": "TerminationCriterion.CONVERGED",
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 0.01096211,
+          "embedding_potentials": [
+            0.0
+          ],
+          "energy_ha": -196.0460192511,
+          "iteration": 0,
+          "timestamp": "2026-03-07T22:39:29.430986"
+        },
+        {
+          "chemical_potential": 0.01243912,
+          "density_error": 0.003533746,
+          "embedding_potentials": [
+            0.01243912
+          ],
+          "energy_ha": -196.0448130105,
+          "iteration": 1,
+          "timestamp": "2026-03-07T22:44:36.658132"
+        },
+        {
+          "chemical_potential": 0.01835652,
+          "density_error": 1.593221e-05,
+          "embedding_potentials": [
+            0.01835652
+          ],
+          "energy_ha": -196.0442460688,
+          "iteration": 2,
+          "timestamp": "2026-03-07T22:49:46.917847"
+        },
+        {
+          "chemical_potential": 0.01838332,
+          "density_error": 7.069807e-06,
+          "embedding_potentials": [
+            0.01838332
+          ],
+          "energy_ha": -196.0442434503,
+          "iteration": 3,
+          "timestamp": "2026-03-07T22:54:56.771262"
+        },
+        {
+          "chemical_potential": 0.01837509,
+          "density_error": 2.372134e-07,
+          "embedding_potentials": [
+            0.01837509
+          ],
+          "energy_ha": -196.0442411891,
+          "iteration": 4,
+          "timestamp": "2026-03-07T23:00:11.763171"
+        }
+      ]
+    }
+  },
+  "schema": "qbemol.paper-results.v1",
+  "system": "F2",
+  "validation": {
+    "note": "The lookahead endpoint and selector event reproduce the manuscript F2 rescue.",
+    "status": "accepted"
+  }
+}

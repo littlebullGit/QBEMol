@@ -1,0 +1,337 @@
+{
+  "basis": "STO-3G",
+  "data_kind": "normalized Brown Oscar computational results",
+  "embedding": {
+    "active_window_policy": "W12",
+    "fragment_count": 2,
+    "order": "BE2"
+  },
+  "geometries": {
+    "1.30": {
+      "distance_angstrom": 1.3,
+      "error_mha_vs_fci_be": {
+        "greedy": 5.298051089908995,
+        "lookahead": 5.490994832427987
+      },
+      "fci_be_energy_ha": -155.39682116866697,
+      "greedy_energy_ha": -155.39152311757707,
+      "lookahead_energy_ha": -155.39133017383455,
+      "lookahead_error_change_mha_vs_greedy": 0.1929437425189917,
+      "trajectories": {
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.002527874,
+            "energy_ha": -155.3916093517,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-07T18:23:24.295028"
+          },
+          {
+            "chemical_potential": 0.00313265,
+            "density_error": 0.0001196543,
+            "energy_ha": -155.3915249891,
+            "iteration": 1,
+            "potentials": [
+              0.00313265
+            ],
+            "timestamp": "2026-08-07T18:31:49.477412"
+          },
+          {
+            "chemical_potential": 0.0032883,
+            "density_error": 2.486729e-06,
+            "energy_ha": -155.3915230787,
+            "iteration": 2,
+            "potentials": [
+              0.0032883
+            ],
+            "timestamp": "2026-08-07T18:40:15.065951"
+          },
+          {
+            "chemical_potential": 0.00328513,
+            "density_error": 1.18817e-10,
+            "energy_ha": -155.3915231176,
+            "iteration": 3,
+            "potentials": [
+              0.00328513
+            ],
+            "timestamp": "2026-08-07T18:48:40.398213"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.002563817,
+            "energy_ha": -155.3914324403,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-07T19:07:45.610799"
+          },
+          {
+            "chemical_potential": 0.00317719,
+            "density_error": 9.148827e-05,
+            "energy_ha": -155.39133176,
+            "iteration": 1,
+            "potentials": [
+              0.00317719
+            ],
+            "timestamp": "2026-08-07T19:26:03.729086"
+          },
+          {
+            "chemical_potential": 0.00329477,
+            "density_error": 1.024384e-06,
+            "energy_ha": -155.391330156,
+            "iteration": 2,
+            "potentials": [
+              0.00329477
+            ],
+            "timestamp": "2026-08-07T19:45:42.142839"
+          },
+          {
+            "chemical_potential": 0.00329346,
+            "density_error": 3.443834e-09,
+            "energy_ha": -155.3913301738,
+            "iteration": 3,
+            "potentials": [
+              0.00329346
+            ],
+            "timestamp": "2026-08-07T20:05:38.622684"
+          }
+        ]
+      }
+    },
+    "1.54": {
+      "distance_angstrom": 1.54,
+      "error_mha_vs_fci_be": {
+        "greedy": 4.745887820433836,
+        "lookahead": 4.742713274168864
+      },
+      "fci_be_energy_ha": -155.48571226732236,
+      "greedy_energy_ha": -155.48096637950192,
+      "lookahead_energy_ha": -155.4809695540482,
+      "lookahead_error_change_mha_vs_greedy": -0.0031745462649723777,
+      "trajectories": {
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.0009503466,
+            "energy_ha": -155.4810776605,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-06T22:52:35.509625"
+          },
+          {
+            "chemical_potential": 0.00093335,
+            "density_error": 2.343389e-06,
+            "energy_ha": -155.4809660547,
+            "iteration": 1,
+            "potentials": [
+              0.00093335
+            ],
+            "timestamp": "2026-08-06T23:01:55.770666"
+          },
+          {
+            "chemical_potential": 0.00093105,
+            "density_error": 1.367809e-09,
+            "energy_ha": -155.4809663795,
+            "iteration": 2,
+            "potentials": [
+              0.00093105
+            ],
+            "timestamp": "2026-08-06T23:11:19.542940"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.0009502538,
+            "energy_ha": -155.481080089,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-07T14:27:52.783720"
+          },
+          {
+            "chemical_potential": 0.00093326,
+            "density_error": 2.376675e-06,
+            "energy_ha": -155.4809692265,
+            "iteration": 1,
+            "potentials": [
+              0.00093326
+            ],
+            "timestamp": "2026-08-07T14:50:05.311712"
+          },
+          {
+            "chemical_potential": 0.00093093,
+            "density_error": 1.486821e-09,
+            "energy_ha": -155.480969554,
+            "iteration": 2,
+            "potentials": [
+              0.00093093
+            ],
+            "timestamp": "2026-08-07T15:14:00.376576"
+          }
+        ]
+      }
+    },
+    "2.10": {
+      "distance_angstrom": 2.1,
+      "error_mha_vs_fci_be": {
+        "greedy": 12.849461022682362,
+        "lookahead": 12.790458611704025
+      },
+      "fci_be_energy_ha": -155.3789194498136,
+      "greedy_energy_ha": -155.3660699887909,
+      "lookahead_energy_ha": -155.3661289912019,
+      "lookahead_error_change_mha_vs_greedy": -0.05900241097833714,
+      "trajectories": {
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.006870985,
+            "energy_ha": -155.3661004251,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-07T20:14:43.138766"
+          },
+          {
+            "chemical_potential": 0.0038747,
+            "density_error": 5.062762e-06,
+            "energy_ha": -155.3660699661,
+            "iteration": 1,
+            "potentials": [
+              0.0038747
+            ],
+            "timestamp": "2026-08-07T20:22:31.062460"
+          },
+          {
+            "chemical_potential": 0.00387185,
+            "density_error": 1.176303e-10,
+            "energy_ha": -155.3660699888,
+            "iteration": 2,
+            "potentials": [
+              0.00387185
+            ],
+            "timestamp": "2026-08-07T20:30:02.523045"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.006871981,
+            "energy_ha": -155.3661591768,
+            "iteration": 0,
+            "potentials": [
+              0.0
+            ],
+            "timestamp": "2026-08-07T20:55:27.221098"
+          },
+          {
+            "chemical_potential": 0.00387526,
+            "density_error": 5.076395e-06,
+            "energy_ha": -155.3661289687,
+            "iteration": 1,
+            "potentials": [
+              0.00387526
+            ],
+            "timestamp": "2026-08-07T21:20:03.234343"
+          },
+          {
+            "chemical_potential": 0.0038724,
+            "density_error": 1.176801e-10,
+            "energy_ha": -155.3661289912,
+            "iteration": 2,
+            "potentials": [
+              0.0038724
+            ],
+            "timestamp": "2026-08-07T21:44:38.952736"
+          }
+        ]
+      }
+    }
+  },
+  "geometry": {
+    "scanned_coordinate": "C2-C3 distance",
+    "source": "PubChem CID 7843 conformer 00001EA300000001"
+  },
+  "provenance": {
+    "execution_environment": "Brown University Oscar cluster",
+    "source_artifacts": [
+      {
+        "sha256": "sha256:d1ee9ae5842f97deedbb32e405e2b897f60a2d4f6cf6661eb5a20395ef868770",
+        "workspace_path": "archive/investigation_logs/butane_fci_w12_pair_4654368_4654372_4654383/results/butane/001b_frontier_window_feasibility/fci_scout_cell_4654368.json"
+      },
+      {
+        "sha256": "sha256:c9556a395248bd25cb5606e1d2b21297a69ee1b892352fb8a7d7ec2943c05c14",
+        "workspace_path": "archive/investigation_logs/butane_fci_w12_pair_4654368_4654372_4654383/results/butane/001b_frontier_window_feasibility/fci_scout_cell_4654372.json"
+      },
+      {
+        "sha256": "sha256:0252c65c78ae4edf57caffcab51fb1f4cab2c8abd42c1b518c342585ec639f35",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/logs/but-w12l-130g_4780112.log"
+      },
+      {
+        "sha256": "sha256:8ce510333ae386ac7cf28a3d2067a65a14c297a44aaf02e81dd055e8f8d6ba6d",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/logs/but-w12l-130l_4780113.log"
+      },
+      {
+        "sha256": "sha256:3d1bdabf6952d54fd3712ce08f18f84e34b4d71161c17d3d16273f23d9a9224d",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/logs/but-w12l-210g_4780115.log"
+      },
+      {
+        "sha256": "sha256:78816c8801196433c1047b5e6e66e14975f96e6d1e34e028c7ba78674327dce7",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/logs/but-w12l-210l_4780116.log"
+      },
+      {
+        "sha256": "sha256:12a9ad401c623a201de166cb176559e1351d2f80615502449c35e44a29c7559f",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/results/w12_1p30_always_top5_energy_4780113.json"
+      },
+      {
+        "sha256": "sha256:e8bb5c0352752a69e4bc8085007b250fa1c1284d441e02180f3a2308affcc472",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/results/w12_1p30_greedy_gradient_4780112.json"
+      },
+      {
+        "sha256": "sha256:e3363b1cfbfed68635d496f0579a508e7946a63a334cdb0f5a5816d852251d48",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/results/w12_2p10_always_top5_energy_4780116.json"
+      },
+      {
+        "sha256": "sha256:1911a5998dbbabeb6e0de7d409436e085539e595d75cc071eb904ceedcd7a04a",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/results/w12_2p10_greedy_gradient_4780115.json"
+      },
+      {
+        "sha256": "sha256:0fd48d94e0c5abb5f8159a054a7bf90a97758519515f548da22ff7c296de160e",
+        "workspace_path": "archive/investigation_logs/butane_w12_distance_scan_4780108_4780116/results/w12_fci_1p30_4780110.json"
+      },
+      {
+        "sha256": "sha256:9a6925bcc48a3c5da4c7f6e0470fa882dfecc971e94398f1e638ca0dc3a63a53",
+        "workspace_path": "archive/investigation_logs/butane_w12_lookahead_4773210_4773220/but-w12l-anchor_4773213.log"
+      },
+      {
+        "sha256": "sha256:e8650760855d735a731632609d39533e4f2e6113d4f2a4282628f351a20ecfce",
+        "workspace_path": "archive/investigation_logs/butane_w12_lookahead_4773210_4773220/w12_1p54_always_top5_energy_4773213.json"
+      },
+      {
+        "sha256": "sha256:c34107573bb6adeb9dab48427909a74a4342c13edfde863ef5d65d09889e98e5",
+        "workspace_path": "archive/investigation_logs/butane_w12_qbe_vqe_4758961_4758964/but-w12q-prod_4758964.log"
+      },
+      {
+        "sha256": "sha256:a08165d61c365080a87469ea970b2e9f3dd5df6c278bb4e3e9f72c75882d69c3",
+        "workspace_path": "archive/investigation_logs/butane_w12_qbe_vqe_4758961_4758964/w12_sector_qbe_4758964.json"
+      }
+    ]
+  },
+  "schema": "qbemol.paper-results.v1",
+  "system": "n-butane",
+  "validation": {
+    "note": "All endpoints and trajectories passed the production figure evidence validator.",
+    "status": "accepted"
+  }
+}

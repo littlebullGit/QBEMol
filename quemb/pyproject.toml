@@ -1,0 +1,52 @@
+[build-system]
+requires = [
+    "scikit-build-core",
+    "pybind11",
+    "numpy",
+    "setuptools",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "quemb"
+version = "0.1.0-alpha"
+description = "Bundled QuEmb-derived molecular bootstrap embedding library for QBEMol"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [{ name = "QuEmb developers and QBEMol contributors" }]
+dependencies = [
+    "numpy>=1.22.0",
+    "scipy>=1.7.0",
+    "pyscf>=2.0.0",
+    "h5py>=3.10",
+    "networkx",
+    "matplotlib",
+    "attrs",
+    "cattrs",
+    "pyyaml",
+    "numba",
+    "ordered-set",
+    "chemcoord @ git+https://github.com/mcocdawc/chemcoord.git@e7c0369349a7704e4a5a61899ad85c80a74eb626",
+    "pathos",
+    "qiskit>=1.0.0",
+    "qiskit-aer>=0.14.1",
+    "qiskit-nature>=0.7.0",
+    "qiskit-algorithms>=0.3.0",
+]
+
+[project.license]
+text = "Apache-2.0"
+
+[project.urls]
+Homepage = "https://vanvoorhisgroup.mit.edu/quemb"
+Download = "https://github.com/troyvvgroup/quemb"
+
+[tool.scikit-build]
+cmake.version = ">=3.18"
+cmake.source-dir = "."
+
+[tool.setuptools.packages.find]
+where = ["./src"]
+include = ["quemb*"]
+exclude = []
+namespaces = false

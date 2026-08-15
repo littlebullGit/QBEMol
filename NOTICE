@@ -1,0 +1,45 @@
+QBEMol
+Copyright 2026 Derek Peng
+
+This product includes software developed as part of the QuEmb project
+(https://github.com/troyvvgroup/quemb), licensed under the Apache License,
+Version 2.0. The bundled QuEmb sources live under `quemb/` and retain their
+original Apache-2.0 license (`quemb/LICENSE`).
+
+================================================================================
+Modifications and additions in this distribution
+================================================================================
+
+This repository is a derivative work that modifies and extends QuEmb to support
+variational-quantum-eigensolver (VQE) fragment solvers for quantum bootstrap
+embedding. The following components were added or substantially modified for the
+work described in the accompanying paper and are Copyright 2026 Derek Peng,
+released under the Apache License, Version 2.0:
+
+  - quemb/src/quemb/molbe/vqe_solver.py          VQE / ADAPT-VQE fragment solver
+  - quemb/src/quemb/molbe/fast_adapt_vqe.py      FastAdaptVQE (sparse statevector gradients)
+  - quemb/src/quemb/molbe/matrix_free_adapt_vqe.py  MatrixFreeAdaptVQE (matrix-free gradients)
+  - scripts/lookahead_utils.py                   Lookahead operator-selection utilities
+  - scripts/ and figure_creation_scripts/        reproduction and figure scripts
+
+================================================================================
+Upstream QuEmb attribution (original NOTICE)
+================================================================================
+
+Initial development of quemb was started by Oinam Romesh Meitei (2023).
+It partially contained parts from earlier codes of the Van Voorhis group,
+such as the Quasi Newton Optimization which was written by Hong-Zhou Ye,
+
+The development branched off in November 2024 (see the tag `last_version_before_forking`)
+and was henceforth carried in alphabetic order by:
+- Minsik Cho
+- Beck Hanscam
+- Aleksandr Trofimov
+- Oskar Weser
+- Shaun Weatherly
+- Leah Weisburn
+- Hong-Zhou Ye
+
+This distribution also vendors the Eigen C++ template library under
+`quemb/external/eigen/` (MPL2; see the COPYING files therein), used to build the
+`eri_sparse_DF` extension.

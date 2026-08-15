@@ -1,0 +1,222 @@
+{
+  "basis": "STO-3G",
+  "data_kind": "normalized computational results",
+  "embedding": {
+    "fragment_count": 2,
+    "order": "BE2"
+  },
+  "geometry": {
+    "description": "linear H4 chain",
+    "nearest_neighbor_distance_angstrom": 1.0
+  },
+  "provenance": {
+    "execution_environment": "local macOS workstation",
+    "source_artifacts": [
+      {
+        "sha256": "sha256:664f1c3db92daeed716a4ca8bb1cb8249ad3ea90eade1e086e717df63f532b11",
+        "workspace_path": "results_section_bundle/h4_beam_generic_trigger_regression_experiment_results.json"
+      },
+      {
+        "sha256": "sha256:5e874c0b6ea0c0e372d74f044c0786ae26aae0a11c45e3127b89704d81884e8d",
+        "workspace_path": "archive/investigation_logs/h4_beam_generic_trigger_regression_20260307_174905.log"
+      },
+      {
+        "sha256": "sha256:15b03545138084e8f68edd4f9a40ea958260cfbd6ebcf3bfb96af832f779223e",
+        "workspace_path": "archive/investigation_logs/conv_exp1_sv_50iter_20260110_221406.log"
+      }
+    ]
+  },
+  "results": {
+    "fci_be": {
+      "energy_ha": -2.1663874444936675,
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 7.028977e-16,
+          "embedding_potentials": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "energy_ha": -2.1663874445,
+          "iteration": 0,
+          "timestamp": "2026-03-07T17:49:24.429274"
+        }
+      ]
+    },
+    "greedy_adapt_vqe_be": {
+      "energy_ha": -2.1661448671711128,
+      "error_mha_vs_fci_be": 0.24257732255472675,
+      "runtime_s": 13.05545866698958,
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 1.401426e-07,
+          "embedding_potentials": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "energy_ha": -2.1661448672,
+          "iteration": 0,
+          "timestamp": "2026-03-07T17:49:37.491565"
+        }
+      ]
+    },
+    "hf_energy_ha": -2.098545936998005,
+    "lookahead_adapt_vqe_be": {
+      "energy_ha": -2.1661448671711128,
+      "error_mha_vs_fci_be": 0.24257732255472675,
+      "lookahead_triggered": false,
+      "runtime_s": 13.855339042027481,
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 1.401426e-07,
+          "embedding_potentials": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "energy_ha": -2.1661448672,
+          "iteration": 0,
+          "timestamp": "2026-03-07T17:49:51.356210"
+        }
+      ]
+    },
+    "uccsd_vqe_be": {
+      "density_converged": false,
+      "energy_ha": -2.1659677386,
+      "error_mha_vs_fci_be": 0.4197058936674658,
+      "note": "The outer optimizer stalled; the reported terminal energy is retained as the manuscript control.",
+      "trajectory": [
+        {
+          "chemical_potential": 0.0,
+          "density_error": 0.01515949,
+          "embedding_potentials": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "energy_ha": -2.1474629378,
+          "iteration": 0,
+          "timestamp": "2026-01-10T22:16:02.726076"
+        },
+        {
+          "chemical_potential": 0.01752306,
+          "density_error": 0.01342848,
+          "embedding_potentials": [
+            0.00741379,
+            -0.05763508,
+            0.01752306
+          ],
+          "energy_ha": -2.1549355182,
+          "iteration": 1,
+          "timestamp": "2026-01-10T22:17:25.963010"
+        },
+        {
+          "chemical_potential": 0.01340471,
+          "density_error": 0.01427941,
+          "embedding_potentials": [
+            0.00760528,
+            -0.05667301,
+            0.01340471
+          ],
+          "energy_ha": -2.1536872972,
+          "iteration": 2,
+          "timestamp": "2026-01-10T22:20:12.055786"
+        },
+        {
+          "chemical_potential": 0.01343869,
+          "density_error": 0.01583216,
+          "embedding_potentials": [
+            0.00726201,
+            -0.05653038,
+            0.01343869
+          ],
+          "energy_ha": -2.1521332232,
+          "iteration": 3,
+          "timestamp": "2026-01-10T22:24:38.211709"
+        },
+        {
+          "chemical_potential": 0.02926743,
+          "density_error": 0.01540602,
+          "embedding_potentials": [
+            0.02262883,
+            -0.01961809,
+            0.02926743
+          ],
+          "energy_ha": -2.1602595757,
+          "iteration": 4,
+          "timestamp": "2026-01-10T22:26:00.966406"
+        },
+        {
+          "chemical_potential": 0.02650573,
+          "density_error": 0.01002503,
+          "embedding_potentials": [
+            0.01919837,
+            -0.02783156,
+            0.02650573
+          ],
+          "energy_ha": -2.1656675047,
+          "iteration": 5,
+          "timestamp": "2026-01-10T22:29:02.083412"
+        },
+        {
+          "chemical_potential": 0.02563431,
+          "density_error": 0.008451864,
+          "embedding_potentials": [
+            0.01259568,
+            -0.04138113,
+            0.02563431
+          ],
+          "energy_ha": -2.1661653427,
+          "iteration": 6,
+          "timestamp": "2026-01-10T22:30:41.597551"
+        },
+        {
+          "chemical_potential": 0.02563431,
+          "density_error": 0.009047586,
+          "embedding_potentials": [
+            0.01259568,
+            -0.04138113,
+            0.02563431
+          ],
+          "energy_ha": -2.1659677386,
+          "iteration": 7,
+          "timestamp": "2026-01-10T22:47:09.962778"
+        },
+        {
+          "chemical_potential": 0.02563431,
+          "density_error": 0.009047586,
+          "embedding_potentials": [
+            0.01259568,
+            -0.04138113,
+            0.02563431
+          ],
+          "energy_ha": -2.1659677386,
+          "iteration": 8,
+          "timestamp": "2026-01-10T22:47:09.962905"
+        },
+        {
+          "chemical_potential": 0.02563431,
+          "density_error": 0.009047586,
+          "embedding_potentials": [
+            0.01259568,
+            -0.04138113,
+            0.02563431
+          ],
+          "energy_ha": -2.1659677386,
+          "iteration": 9,
+          "timestamp": "2026-01-10T22:47:09.962933"
+        }
+      ]
+    }
+  },
+  "schema": "qbemol.paper-results.v1",
+  "system": "H4",
+  "validation": {
+    "note": "The ADAPT-VQE-BE control and its FCI-BE reference are the values reported in the manuscript.",
+    "status": "accepted"
+  }
+}

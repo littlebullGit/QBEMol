@@ -1,0 +1,333 @@
+{
+  "schema": "qbemol.n-butane-qbe-vqe.dry-run.v1",
+  "source_asset": "data/n_butane_cid7843.sdf",
+  "source_sha256": "692a6ef677670b00243db8b0872695fb953ff2ccc66da7fd9c74282c37bf0cc8",
+  "validated_backbone_dihedral_abs_deg": 178.8496819438351,
+  "selected_distances_angstrom": [
+    1.3,
+    2.1
+  ],
+  "selected_selectors": [
+    "greedy"
+  ],
+  "reduction_policy": {
+    "policy_id": "R5",
+    "frozen_core": true,
+    "thr_bath": 0.01
+  },
+  "active_window": {
+    "policy_id": "W12",
+    "frozen_occupied_orbitals": 4,
+    "discarded_virtual_orbitals": 4,
+    "minimum_boundary_gap_ha": 1e-08
+  },
+  "contract_path": "data/n_butane_w12_references.json",
+  "expected_fixed_sector_pool_size": 14784,
+  "generated_sector_pool_sentinel": "__generated_ovp_ceo_pool__",
+  "geometries": [
+    {
+      "distance_angstrom": 1.3,
+      "payload": {
+        "source_sha256": "692a6ef677670b00243db8b0872695fb953ff2ccc66da7fd9c74282c37bf0cc8",
+        "central_distance_angstrom": 1.3,
+        "backbone_dihedral_abs_deg": 178.8496819438351,
+        "atoms": [
+          {
+            "label": "C1",
+            "element": "C",
+            "xyz": [
+              -1.9293,
+              -0.1506,
+              -0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C2",
+            "element": "C",
+            "xyz": [
+              -0.563,
+              0.516,
+              0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C3",
+            "element": "C",
+            "xyz": [
+              0.39541343492534375,
+              -0.3623186709586699,
+              0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C4",
+            "element": "C",
+            "xyz": [
+              1.7618134349253438,
+              0.3040813290413301,
+              -0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "H(C1)-1",
+            "element": "H",
+            "xyz": [
+              -2.0542,
+              -0.771,
+              -0.9003
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C1)-2",
+            "element": "H",
+            "xyz": [
+              -2.0651,
+              -0.7856,
+              0.8742
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C1)-3",
+            "element": "H",
+            "xyz": [
+              -2.7203,
+              0.606,
+              -0.0058
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C2)-1",
+            "element": "H",
+            "xyz": [
+              -0.4724,
+              1.1666,
+              -0.8706
+            ],
+            "parent_carbon": "C2"
+          },
+          {
+            "label": "H(C2)-2",
+            "element": "H",
+            "xyz": [
+              -0.4825,
+              1.1551,
+              0.894
+            ],
+            "parent_carbon": "C2"
+          },
+          {
+            "label": "H(C3)-1",
+            "element": "H",
+            "xyz": [
+              0.31491343492534385,
+              -1.0015186709586699,
+              0.894
+            ],
+            "parent_carbon": "C3"
+          },
+          {
+            "label": "H(C3)-2",
+            "element": "H",
+            "xyz": [
+              0.30471343492534386,
+              -1.01291867095867,
+              -0.8706
+            ],
+            "parent_carbon": "C3"
+          },
+          {
+            "label": "H(C4)-1",
+            "element": "H",
+            "xyz": [
+              1.8866134349253436,
+              0.9244813290413302,
+              -0.9003
+            ],
+            "parent_carbon": "C4"
+          },
+          {
+            "label": "H(C4)-2",
+            "element": "H",
+            "xyz": [
+              2.552613434925344,
+              -0.4526186709586698,
+              -0.0059
+            ],
+            "parent_carbon": "C4"
+          },
+          {
+            "label": "H(C4)-3",
+            "element": "H",
+            "xyz": [
+              1.8976134349253437,
+              0.9389813290413301,
+              0.8743
+            ],
+            "parent_carbon": "C4"
+          }
+        ],
+        "digest": "bf2e2ab5ea4ab9f2918946ec013be2d94dd60925124ba8074b3cecdf4cfb9e38"
+      },
+      "planned_xyz": "results/n_butane_qbe_vqe/geometries/n_butane_c2c3_1.30A.xyz"
+    },
+    {
+      "distance_angstrom": 2.1,
+      "payload": {
+        "source_sha256": "692a6ef677670b00243db8b0872695fb953ff2ccc66da7fd9c74282c37bf0cc8",
+        "central_distance_angstrom": 2.1,
+        "backbone_dihedral_abs_deg": 178.8496819438351,
+        "atoms": [
+          {
+            "label": "C1",
+            "element": "C",
+            "xyz": [
+              -1.9293,
+              -0.1506,
+              -0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C2",
+            "element": "C",
+            "xyz": [
+              -0.563,
+              0.516,
+              0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C3",
+            "element": "C",
+            "xyz": [
+              0.9852063179563245,
+              -0.9028224684716976,
+              0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "C4",
+            "element": "C",
+            "xyz": [
+              2.3516063179563247,
+              -0.23642246847169754,
+              -0.0071
+            ],
+            "parent_carbon": null
+          },
+          {
+            "label": "H(C1)-1",
+            "element": "H",
+            "xyz": [
+              -2.0542,
+              -0.771,
+              -0.9003
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C1)-2",
+            "element": "H",
+            "xyz": [
+              -2.0651,
+              -0.7856,
+              0.8742
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C1)-3",
+            "element": "H",
+            "xyz": [
+              -2.7203,
+              0.606,
+              -0.0058
+            ],
+            "parent_carbon": "C1"
+          },
+          {
+            "label": "H(C2)-1",
+            "element": "H",
+            "xyz": [
+              -0.4724,
+              1.1666,
+              -0.8706
+            ],
+            "parent_carbon": "C2"
+          },
+          {
+            "label": "H(C2)-2",
+            "element": "H",
+            "xyz": [
+              -0.4825,
+              1.1551,
+              0.894
+            ],
+            "parent_carbon": "C2"
+          },
+          {
+            "label": "H(C3)-1",
+            "element": "H",
+            "xyz": [
+              0.9047063179563246,
+              -1.5420224684716977,
+              0.894
+            ],
+            "parent_carbon": "C3"
+          },
+          {
+            "label": "H(C3)-2",
+            "element": "H",
+            "xyz": [
+              0.8945063179563246,
+              -1.5534224684716977,
+              -0.8706
+            ],
+            "parent_carbon": "C3"
+          },
+          {
+            "label": "H(C4)-1",
+            "element": "H",
+            "xyz": [
+              2.4764063179563243,
+              0.3839775315283025,
+              -0.9003
+            ],
+            "parent_carbon": "C4"
+          },
+          {
+            "label": "H(C4)-2",
+            "element": "H",
+            "xyz": [
+              3.1424063179563246,
+              -0.9931224684716975,
+              -0.0059
+            ],
+            "parent_carbon": "C4"
+          },
+          {
+            "label": "H(C4)-3",
+            "element": "H",
+            "xyz": [
+              2.4874063179563244,
+              0.39847753152830245,
+              0.8743
+            ],
+            "parent_carbon": "C4"
+          }
+        ],
+        "digest": "03cbb76556a1b59fed6521c62893865c0b1f5f14041b1d5eab6a81af50318101"
+      },
+      "planned_xyz": "results/n_butane_qbe_vqe/geometries/n_butane_c2c3_2.10A.xyz"
+    }
+  ]
+}

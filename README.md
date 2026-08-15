@@ -118,3 +118,6 @@ H4, F2, H6, and n-butane results are in `data/results/`. H6 and n-butane were ru
 
 Use `CITATION.cff`. QBEMol is licensed under Apache-2.0, with QuEmb attribution
 in `quemb/NOTICE`.
+
+## DOI
+`10.5281/zenodo.21942523`

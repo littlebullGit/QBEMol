@@ -1,0 +1,648 @@
+{
+  "basis": "STO-3G",
+  "data_kind": "normalized Brown Oscar computational results",
+  "embedding": {
+    "intended_fragment_count": 4,
+    "order": "BE2"
+  },
+  "geometries": {
+    "1.0": {
+      "energies_ha": {
+        "fci": -3.2360662798923423,
+        "fci_be": -3.2360662804362947,
+        "qbe_greedy": -3.230982761653621,
+        "qbe_lookahead": -3.2310209928128093
+      },
+      "final_density_error": {
+        "fci_be": 9.321907481344796e-16,
+        "greedy": 9.84352027687767e-09,
+        "lookahead": 2.5767985791485408e-08
+      },
+      "path_statistics": {
+        "greedy": {
+          "fragment_solver_call_count": 4,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            50,
+            50,
+            50,
+            50
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 0,
+          "selected_rank_distribution": {}
+        },
+        "lookahead": {
+          "fragment_solver_call_count": 4,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            50,
+            50,
+            50,
+            50
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 1000,
+          "selected_rank_distribution": {
+            "1": 108,
+            "2": 12,
+            "3": 24,
+            "4": 20,
+            "5": 36
+          }
+        }
+      },
+      "resolved_fragment_count": 4,
+      "runtime": {
+        "fci_be_peak_rss_mib": 439.65625,
+        "fci_be_wall_s": 0.25078696198761463,
+        "greedy_peak_rss_mib": 583.296875,
+        "greedy_wall_s": 2152.749784424901,
+        "lookahead_peak_rss_mib": 621.43359375,
+        "lookahead_wall_s": 11151.902485635132
+      },
+      "slurm_job_ids": {
+        "fci_be": "4749053",
+        "greedy": "4749054",
+        "lookahead": "4749055"
+      },
+      "solver_error_mha_vs_fci_be": {
+        "greedy": 5.083518782673657,
+        "lookahead": 5.045287623485439
+      },
+      "spacing_angstrom": 1.0,
+      "topology_status": "valid_fixed_four_fragment_cell",
+      "trajectories": {
+        "fci_be": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 9.321907e-16,
+            "embedding_potentials": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "energy_ha": -3.2360662804,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:18:27.329502"
+          }
+        ],
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 9.84352e-09,
+            "embedding_potentials": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "energy_ha": -3.2309827617,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:54:50.391403"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 2.576799e-08,
+            "embedding_potentials": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "energy_ha": -3.2310209928,
+            "iteration": 0,
+            "timestamp": "2026-08-06T19:24:39.517124"
+          }
+        ]
+      }
+    },
+    "1.5": {
+      "energies_ha": {
+        "fci": -2.995565425831943,
+        "fci_be": -3.0002526457436667,
+        "qbe_greedy": -3.0000505061665708,
+        "qbe_lookahead": -3.00005050615531
+      },
+      "final_density_error": {
+        "fci_be": 2.9587548411313946e-08,
+        "greedy": 3.2230274893407795e-08,
+        "lookahead": 8.124047656821176e-09
+      },
+      "path_statistics": {
+        "greedy": {
+          "fragment_solver_call_count": 18,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 0,
+          "selected_rank_distribution": {}
+        },
+        "lookahead": {
+          "fragment_solver_call_count": 18,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 60,
+          "selected_rank_distribution": {
+            "1": 30
+          }
+        }
+      },
+      "resolved_fragment_count": 6,
+      "runtime": {
+        "fci_be_peak_rss_mib": 434.12890625,
+        "fci_be_wall_s": 0.302330132573843,
+        "greedy_peak_rss_mib": 439.97265625,
+        "greedy_wall_s": 5.668561656028032,
+        "lookahead_peak_rss_mib": 449.97265625,
+        "lookahead_wall_s": 6.353506945073605
+      },
+      "slurm_job_ids": {
+        "fci_be": "4749056",
+        "greedy": "4749057",
+        "lookahead": "4751796"
+      },
+      "solver_error_mha_vs_fci_be": {
+        "greedy": 0.20213957709591668,
+        "lookahead": 0.20213958835668677
+      },
+      "spacing_angstrom": 1.5,
+      "topology_status": "invalid_for_fixed_four_fragment_comparison",
+      "trajectories": {
+        "fci_be": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.003195281,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -3.0000049207,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:18:50.029636"
+          },
+          {
+            "chemical_potential": -0.00074126,
+            "density_error": 0.001369778,
+            "embedding_potentials": [
+              -0.00074126
+            ],
+            "energy_ha": -3.0001463749,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:18:50.122882"
+          },
+          {
+            "chemical_potential": -0.00129747,
+            "density_error": 2.958755e-08,
+            "embedding_potentials": [
+              -0.00129747
+            ],
+            "energy_ha": -3.0002526457,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:18:50.222715"
+          }
+        ],
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.002460308,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -2.9999226255,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:18:57.381430"
+          },
+          {
+            "chemical_potential": -0.00057076,
+            "density_error": 0.0008391719,
+            "embedding_potentials": [
+              -0.00057076
+            ],
+            "energy_ha": -3.0000069315,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:18:59.239062"
+          },
+          {
+            "chemical_potential": -0.00086621,
+            "density_error": 3.223027e-08,
+            "embedding_potentials": [
+              -0.00086621
+            ],
+            "energy_ha": -3.0000505062,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:19:01.108288"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.002460322,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -2.9999226296,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:24:04.196008"
+          },
+          {
+            "chemical_potential": -0.00057076,
+            "density_error": 0.0008391692,
+            "embedding_potentials": [
+              -0.00057076
+            ],
+            "energy_ha": -3.0000069296,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:24:06.353715"
+          },
+          {
+            "chemical_potential": -0.00086621,
+            "density_error": 8.124048e-09,
+            "embedding_potentials": [
+              -0.00086621
+            ],
+            "energy_ha": -3.0000505062,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:24:08.423515"
+          }
+        ]
+      }
+    },
+    "2.0": {
+      "energies_ha": {
+        "fci": -2.847192133955602,
+        "fci_be": -2.8524420850255683,
+        "qbe_greedy": -2.8523919917327056,
+        "qbe_lookahead": -2.8523919917327056
+      },
+      "final_density_error": {
+        "fci_be": 1.526691404407643e-07,
+        "greedy": 5.486735510373819e-09,
+        "lookahead": 5.486735510373819e-09
+      },
+      "path_statistics": {
+        "greedy": {
+          "fragment_solver_call_count": 30,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 0,
+          "selected_rank_distribution": {}
+        },
+        "lookahead": {
+          "fragment_solver_call_count": 30,
+          "max_energy_recomputation_residual": 0.0,
+          "operator_counts": [
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "optimizer_failures": 0,
+          "probe_count": 112,
+          "selected_rank_distribution": {
+            "1": 56
+          }
+        }
+      },
+      "resolved_fragment_count": 6,
+      "runtime": {
+        "fci_be_peak_rss_mib": 436.4765625,
+        "fci_be_wall_s": 0.32967981323599815,
+        "greedy_peak_rss_mib": 443.13671875,
+        "greedy_wall_s": 9.323632353916764,
+        "lookahead_peak_rss_mib": 443.9765625,
+        "lookahead_wall_s": 10.758566167205572
+      },
+      "slurm_job_ids": {
+        "fci_be": "4749059",
+        "greedy": "4749060",
+        "lookahead": "4749062"
+      },
+      "solver_error_mha_vs_fci_be": {
+        "greedy": 0.05009329286265185,
+        "lookahead": 0.05009329286265185
+      },
+      "spacing_angstrom": 2.0,
+      "topology_status": "invalid_for_fixed_four_fragment_comparison",
+      "trajectories": {
+        "fci_be": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.003486085,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -2.8499461166,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:19:24.813337"
+          },
+          {
+            "chemical_potential": -0.00069535,
+            "density_error": 0.002873521,
+            "embedding_potentials": [
+              -0.00069535
+            ],
+            "energy_ha": -2.8503852792,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:19:24.924019"
+          },
+          {
+            "chemical_potential": -0.00395719,
+            "density_error": 1.526691e-07,
+            "embedding_potentials": [
+              -0.00395719
+            ],
+            "energy_ha": -2.852442085,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:19:25.033849"
+          }
+        ],
+        "greedy": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.003500646,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -2.8499485888,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:20:01.050824"
+          },
+          {
+            "chemical_potential": -0.00069825,
+            "density_error": 0.002484683,
+            "embedding_potentials": [
+              -0.00069825
+            ],
+            "energy_ha": -2.8503191964,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:20:02.892200"
+          },
+          {
+            "chemical_potential": -0.00240592,
+            "density_error": 0.00132604,
+            "embedding_potentials": [
+              -0.00240592
+            ],
+            "energy_ha": -2.8514575576,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:20:04.770240"
+          },
+          {
+            "chemical_potential": -0.00436031,
+            "density_error": 0.0004165672,
+            "embedding_potentials": [
+              -0.00436031
+            ],
+            "energy_ha": -2.8526853102,
+            "iteration": 3,
+            "timestamp": "2026-08-06T16:20:06.647121"
+          },
+          {
+            "chemical_potential": -0.00389311,
+            "density_error": 5.486736e-09,
+            "embedding_potentials": [
+              -0.00389311
+            ],
+            "energy_ha": -2.8523919917,
+            "iteration": 4,
+            "timestamp": "2026-08-06T16:20:08.527190"
+          }
+        ],
+        "lookahead": [
+          {
+            "chemical_potential": 0.0,
+            "density_error": 0.003500646,
+            "embedding_potentials": [
+              0.0
+            ],
+            "energy_ha": -2.8499485888,
+            "iteration": 0,
+            "timestamp": "2026-08-06T16:19:55.109933"
+          },
+          {
+            "chemical_potential": -0.00069825,
+            "density_error": 0.002484683,
+            "embedding_potentials": [
+              -0.00069825
+            ],
+            "energy_ha": -2.8503191964,
+            "iteration": 1,
+            "timestamp": "2026-08-06T16:19:57.177671"
+          },
+          {
+            "chemical_potential": -0.00240592,
+            "density_error": 0.00132604,
+            "embedding_potentials": [
+              -0.00240592
+            ],
+            "energy_ha": -2.8514575576,
+            "iteration": 2,
+            "timestamp": "2026-08-06T16:19:59.346905"
+          },
+          {
+            "chemical_potential": -0.00436031,
+            "density_error": 0.0004165672,
+            "embedding_potentials": [
+              -0.00436031
+            ],
+            "energy_ha": -2.8526853102,
+            "iteration": 3,
+            "timestamp": "2026-08-06T16:20:01.534413"
+          },
+          {
+            "chemical_potential": -0.00389311,
+            "density_error": 5.486736e-09,
+            "embedding_potentials": [
+              -0.00389311
+            ],
+            "energy_ha": -2.8523919917,
+            "iteration": 4,
+            "timestamp": "2026-08-06T16:20:03.706151"
+          }
+        ]
+      }
+    }
+  },
+  "geometry": {
+    "description": "linear H6 chain"
+  },
+  "provenance": {
+    "assembly_slurm_job_id": "4751809",
+    "execution_environment": "Brown University Oscar cluster",
+    "source_artifacts": [
+      {
+        "sha256": "sha256:da28221f189350093f7608de778e9dc85b0afb242f344288354b17644001aa1c",
+        "slurm_job_id": "4751809",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/008_h6_qbe_lookahead/experiment_results.json"
+      },
+      {
+        "sha256": "sha256:84a9791ee3542e4269064d92daeda6282781e3c6d2fa8c88d094f540e3fa1b14",
+        "slurm_job_id": "4749053",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749053.log"
+      },
+      {
+        "sha256": "sha256:deef66741b6e0a81e95d979060b687b75dbb43a4c8965a4a5e375f6fcf537894",
+        "slurm_job_id": "4749054",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749054.log"
+      },
+      {
+        "sha256": "sha256:86489bae09540a1cb8a8c64812196e0e1ab3db059c980961bb342b0122aa24a3",
+        "slurm_job_id": "4749055",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749055.log"
+      },
+      {
+        "sha256": "sha256:6aa47c1acd465ba37b559538a44de9eae6eaa1b0c0df1675c6b85b0fab495239",
+        "slurm_job_id": "4749056",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749056.log"
+      },
+      {
+        "sha256": "sha256:41fad932fa462465f37f22d3a1f8d1a4cad228760c3873961fb11f849c6be901",
+        "slurm_job_id": "4749057",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749057.log"
+      },
+      {
+        "sha256": "sha256:ad741c0f8acb4fc9d5bcc0c9036e75e7aff3046c723c18ebc1b6b10c28c9d09b",
+        "slurm_job_id": "4751796",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4751796.log"
+      },
+      {
+        "sha256": "sha256:afd74918574fb44d9777dfaa02f63613091f6332959a668ab23ebb8d6b234da4",
+        "slurm_job_id": "4749059",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749059.log"
+      },
+      {
+        "sha256": "sha256:a1fe9589955e237a35350f95c4d78d29405c141f9611db34d77308dd1a573c47",
+        "slurm_job_id": "4749060",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749060.log"
+      },
+      {
+        "sha256": "sha256:b6396caada6c2131a9c588e3ca096001c94b0c9848c5e5eb15d96917818d45d1",
+        "slurm_job_id": "4749062",
+        "workspace_path": "archive/investigation_logs/h6_qbe_production_terminal_4751809_miss/logs/h6-qbe-cell_4749062.log"
+      }
+    ]
+  },
+  "schema": "qbemol.paper-results.v1",
+  "system": "H6",
+  "validation": {
+    "invalid_fixed_topology_cells": [
+      "1.5",
+      "2.0"
+    ],
+    "note": "The values are retained as reproducible geometry-inferred-connectivity results and must not be interpreted as a fixed-topology H6 distance scan.",
+    "reason": "Automatic bond inference produced four overlapping fragments at 1.0 Angstrom but six disconnected fragments at 1.5 and 2.0 Angstrom.",
+    "status": "invalid_for_fixed_four_fragment_distance_comparison",
+    "valid_fixed_topology_cells": [
+      "1.0"
+    ]
+  }
+}

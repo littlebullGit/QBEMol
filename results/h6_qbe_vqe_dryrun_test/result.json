@@ -1,0 +1,83 @@
+{
+  "cells": [
+    {
+      "case": "greedy",
+      "output_path": "results/h6_qbe_vqe_dryrun_test/spacing_1.0/greedy/result.json",
+      "selector_policy": "greedy_gradient",
+      "spacing_angstrom": 1.0
+    },
+    {
+      "case": "lookahead",
+      "output_path": "results/h6_qbe_vqe_dryrun_test/spacing_1.0/lookahead/result.json",
+      "selector_policy": "always_top5_energy",
+      "spacing_angstrom": 1.0
+    }
+  ],
+  "manifest": {
+    "path": "/Users/derek/work/Classes/quantum_brown_v2/QBEMol/data/h6_manifests/h6_be_fragment_pool_registry.json",
+    "resolved": {
+      "12q_6e": {
+        "manifest_digest": "sha256:c1f52788f004dc2b5ce077f81c1cf5636d6ab803eb5aa9664d176fcf3112f3d5",
+        "operator_count": 660,
+        "pool_digest": "sha256:5601b65c0e0550bf6df5e74a5e13219b0a5044e52ed28f107de0598597afaf2e"
+      },
+      "4q_2e": {
+        "manifest_digest": "sha256:595c2ce9dbedaf622ee41a5698455c96bb045a44fb8cbadd49e7e3e2e5599919",
+        "operator_count": 4,
+        "pool_digest": "sha256:45fadaf1cf7e7c433eb285ce2ef1973b51961166bb7ee8c6be5e13b394594575"
+      },
+      "8q_4e": {
+        "manifest_digest": "sha256:0d14700828aa6fdbd599fb63143b992801aea9106760570c4b8cb400a341cd8d",
+        "operator_count": 96,
+        "pool_digest": "sha256:6cf36978cdb4834b83e71a6eda0e14f8ae7d988ca81694608851a04d8ea81823"
+      }
+    },
+    "sha256": "sha256:7ca24d2dfb8849f5eff9985c427e8f4025d2599156e43284f6635a7da0366df3"
+  },
+  "mode": "dry_run",
+  "paper_controls": {
+    "adapt_check_cyclicity": false,
+    "adapt_eigenvalue_threshold": 0.0,
+    "adapt_gradient_threshold": 0.001,
+    "adapt_max_iterations": 50,
+    "ansatz": "adapt_fast",
+    "basis": "sto-3g",
+    "be_order": 2,
+    "direct_sv_use_exact_jacobian": false,
+    "estimator": "direct_sv",
+    "fragmentation": "chemgen",
+    "h_treatment": "treat_H_like_heavy_atom",
+    "max_restarts": 1,
+    "optimizer": "SLSQP",
+    "random_seed": 281,
+    "stage1_energy_tol": 1e-10,
+    "stage1_max_iter": 200,
+    "stage2_energy_tol": 1e-10,
+    "stage2_max_iter": 200,
+    "stage3_energy_tol": 1e-10,
+    "stage3_max_iter": 200,
+    "warm_start": false
+  },
+  "project_root": "/Users/derek/work/Classes/quantum_brown_v2/QBEMol",
+  "reference": {
+    "geometries": {
+      "1.0": {
+        "fci": -3.2360662798923423,
+        "greedy": -3.230982761653621,
+        "lookahead": -3.2310209928128093
+      },
+      "1.5": {
+        "fci": -2.995565425831943,
+        "greedy": -3.0000505061665708,
+        "lookahead": -3.00005050615531
+      },
+      "2.0": {
+        "fci": -2.847192133955602,
+        "greedy": -2.8523919917327056,
+        "lookahead": -2.8523919917327056
+      }
+    },
+    "source": "Embedded terminal H6 paper matrix (August 6, 2026)"
+  },
+  "status": "NOT_RUN"
+}

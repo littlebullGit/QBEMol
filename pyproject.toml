@@ -1,0 +1,62 @@
+[project]
+name = "qbemol"
+version = "1.0.0"
+description = "VQE-based quantum bootstrap embedding for molecular energy calculations"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Derek Peng" }]
+dependencies = [
+    "quemb",
+    "attrs>=25.0",
+    "cattrs>=24.1",
+    "h5py>=3.10",
+    "matplotlib>=3.9",
+    "networkx>=3.2",
+    "numba>=0.60",
+    "numpy>=1.24,<3",
+    "ordered-set>=4.1",
+    "pathos>=0.3",
+    "pyscf>=2.4",
+    "pyyaml>=6.0",
+    "qiskit>=2.0",
+    "qiskit-aer>=0.15",
+    "qiskit-algorithms>=0.3",
+    "qiskit-nature>=0.7",
+    "scipy>=1.11",
+]
+
+[project.urls]
+Repository = "https://github.com/littlebullGit/QBEMol"
+Documentation = "https://github.com/littlebullGit/QBEMol#readme"
+
+[project.optional-dependencies]
+tests = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+]
+format = [
+    "black>=25.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "black>=25.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+# `pythonpath = ["."]` makes the repo root importable so that
+# `quemb/tests/lookahead_utils_test.py` can `import scripts.lookahead_utils`.
+pythonpath = ["."]
+testpaths = ["quemb/tests"]
+addopts = "-ra"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.uv.sources]
+quemb = { path = "quemb" }

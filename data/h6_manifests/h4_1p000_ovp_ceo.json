@@ -1,0 +1,7262 @@
+{
+  "conventions": {
+    "generator_relation": "G=iK",
+    "hf_bitstring_order": "qubit_index_ascending",
+    "pauli_label_order": "qiskit_big_endian",
+    "source_generator": "anti_hermitian",
+    "source_spin_orbital_order": "interleaved",
+    "target_spin_orbital_order": "blocked"
+  },
+  "digest": "sha256:0d14700828aa6fdbd599fb63143b992801aea9106760570c4b8cb400a341cd8d",
+  "hamiltonian": {
+    "digest": "sha256:c5bd71156be1d43d113c8432d2c2c321c444aa9bed793698474469695c9d654f",
+    "pauli_terms": [
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.3314778134168102
+        },
+        "label": "IIIIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.18136485128990845
+        },
+        "label": "IIIIIIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.18136485128990845
+        },
+        "label": "IIIIIIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.12432120849362685
+        },
+        "label": "IIIIIIZZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.08792644653108558
+        },
+        "label": "IIIIIZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0696375084563188
+        },
+        "label": "IIIIIZIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.10898302201672627
+        },
+        "label": "IIIIIZZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03934551356040745
+        },
+        "label": "IIIIXXYY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.03934551356040745
+        },
+        "label": "IIIIXYYX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.03934551356040745
+        },
+        "label": "IIIIYXXY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03934551356040745
+        },
+        "label": "IIIIYYXX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.08792644653108575
+        },
+        "label": "IIIIZIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.10898302201672627
+        },
+        "label": "IIIIZIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0696375084563188
+        },
+        "label": "IIIIZIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11340654161438066
+        },
+        "label": "IIIIZZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.002451288301373415
+        },
+        "label": "IIIXIZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024500238532872583
+        },
+        "label": "IIIXXYYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIIXYYXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.022048950231499168
+        },
+        "label": "IIIXZIZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.020391298291898563
+        },
+        "label": "IIIXZZIX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.00556213199751117
+        },
+        "label": "IIIXZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.002451288301373415
+        },
+        "label": "IIIYIZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIIYXXYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024500238532872583
+        },
+        "label": "IIIYYXXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.022048950231499168
+        },
+        "label": "IIIYZIZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.020391298291898563
+        },
+        "label": "IIIYZZIY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.00556213199751117
+        },
+        "label": "IIIYZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.07904409226124152
+        },
+        "label": "IIIZIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0845404921550327
+        },
+        "label": "IIIZIIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11149852242605163
+        },
+        "label": "IIIZIIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.07762037309982334
+        },
+        "label": "IIIZIZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11194105078035882
+        },
+        "label": "IIIZZIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0017156570386367702
+        },
+        "label": "IIXIZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.026958030271018927
+        },
+        "label": "IIXXIIYY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.034320677680535476
+        },
+        "label": "IIXXYYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.026958030271018927
+        },
+        "label": "IIXYIIYX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.034320677680535476
+        },
+        "label": "IIXYYXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.022048950231499168
+        },
+        "label": "IIXZIZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIXZXXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIXZXYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.002451288301373415
+        },
+        "label": "IIXZZIXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.005562131997511168
+        },
+        "label": "IIXZZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.020391298291898563
+        },
+        "label": "IIXZZZXZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0017156570386367702
+        },
+        "label": "IIYIZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.026958030271018927
+        },
+        "label": "IIYXIIXY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.034320677680535476
+        },
+        "label": "IIYXXYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.026958030271018927
+        },
+        "label": "IIYYIIXX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.034320677680535476
+        },
+        "label": "IIYYXXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.022048950231499168
+        },
+        "label": "IIYZIZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIYZYXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024500238532872583
+        },
+        "label": "IIYZYYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.002451288301373415
+        },
+        "label": "IIYZZIYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.005562131997511168
+        },
+        "label": "IIYZZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.020391298291898563
+        },
+        "label": "IIYZZZYZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.07904409226124133
+        },
+        "label": "IIZIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11149852242605163
+        },
+        "label": "IIZIIIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0845404921550327
+        },
+        "label": "IIZIIIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11194105078035882
+        },
+        "label": "IIZIIZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.07762037309982334
+        },
+        "label": "IIZIZIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0017156570386367704
+        },
+        "label": "IIZXZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0017156570386367704
+        },
+        "label": "IIZYZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11685143854472049
+        },
+        "label": "IIZZIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0007036277600324886
+        },
+        "label": "IXIZZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024628245729683983
+        },
+        "label": "IXXIIYYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "IXXIXZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024841613754402116
+        },
+        "label": "IXXYYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024628245729683983
+        },
+        "label": "IXYIIYXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "IXYIYZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "IXYYXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.025545241514434606
+        },
+        "label": "IXZIZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024418228025864675
+        },
+        "label": "IXZXIXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.013030122213395706
+        },
+        "label": "IXZXIYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "IXZXXZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "IXZXYZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.01138810581246897
+        },
+        "label": "IXZYIYZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0010141239253515818
+        },
+        "label": "IXZZIXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "IXZZXIXX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "IXZZYIYX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.01726656072492476
+        },
+        "label": "IXZZZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010290902970907602
+        },
+        "label": "IXZZZXIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.021061897360589416
+        },
+        "label": "IXZZZXZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0007036277600324886
+        },
+        "label": "IYIZZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024628245729683983
+        },
+        "label": "IYXIIXYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "IYXIXZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "IYXXYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024628245729683983
+        },
+        "label": "IYYIIXXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "IYYIYZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024841613754402116
+        },
+        "label": "IYYXXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.025545241514434606
+        },
+        "label": "IYZIZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.01138810581246897
+        },
+        "label": "IYZXIXZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.013030122213395706
+        },
+        "label": "IYZYIXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024418228025864675
+        },
+        "label": "IYZYIYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "IYZYXZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "IYZYYZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0010141239253515818
+        },
+        "label": "IYZZIYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "IYZZXIXY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "IYZZYIYY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.01726656072492476
+        },
+        "label": "IYZZZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010290902970907602
+        },
+        "label": "IYZZZYIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.021061897360589416
+        },
+        "label": "IYZZZYZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.3346121300328114
+        },
+        "label": "IZIIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.10647068453545304
+        },
+        "label": "IZIIIIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.13073805878528394
+        },
+        "label": "IZIIIIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0898249923593194
+        },
+        "label": "IZIIIZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11598632411711235
+        },
+        "label": "IZIIZIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.011234473400252942
+        },
+        "label": "IZIXZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.011234473400252942
+        },
+        "label": "IZIYZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.07943848632286911
+        },
+        "label": "IZIZIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.021476825762834488
+        },
+        "label": "IZXZZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.021476825762834488
+        },
+        "label": "IZYZZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.12005460580671172
+        },
+        "label": "IZZIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.02338450413954821
+        },
+        "label": "XIZZXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024267374249830886
+        },
+        "label": "XXIIIIYY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.026161331757792956
+        },
+        "label": "XXIIYYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581548
+        },
+        "label": "XXIXZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.040616119483842604
+        },
+        "label": "XXYYIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581546
+        },
+        "label": "XXYZZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024267374249830886
+        },
+        "label": "XYIIIIYX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.026161331757792956
+        },
+        "label": "XYIIYXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581548
+        },
+        "label": "XYIYZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.040616119483842604
+        },
+        "label": "XYYXIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010242352362581546
+        },
+        "label": "XYYZZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.025545241514434606
+        },
+        "label": "XZIZXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "XZXIIXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "XZXIIYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024418228025864675
+        },
+        "label": "XZXIXZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.013030122213395706
+        },
+        "label": "XZXIYZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "XZXXZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "XZXYZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.01138810581246897
+        },
+        "label": "XZYIYZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0007036277600324886
+        },
+        "label": "XZZIXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "XZZXIXXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024628245729683983
+        },
+        "label": "XZZXYZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "XZZYIYXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024628245729683983
+        },
+        "label": "XZZYYZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.017266560724924745
+        },
+        "label": "XZZZXIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.021061897360589416
+        },
+        "label": "XZZZXIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010290902970907602
+        },
+        "label": "XZZZXIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0010141239253515818
+        },
+        "label": "XZZZXZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "XZZZZXYY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010770994389681817
+        },
+        "label": "XZZZZYYX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.02338450413954821
+        },
+        "label": "YIZZYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024267374249830886
+        },
+        "label": "YXIIIIXY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.026161331757792956
+        },
+        "label": "YXIIXYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581548
+        },
+        "label": "YXIXZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.040616119483842604
+        },
+        "label": "YXXYIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010242352362581546
+        },
+        "label": "YXXZZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024267374249830886
+        },
+        "label": "YYIIIIXX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.026161331757792956
+        },
+        "label": "YYIIXXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581548
+        },
+        "label": "YYIYZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.040616119483842604
+        },
+        "label": "YYXXIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010242352362581546
+        },
+        "label": "YYXZZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.025545241514434606
+        },
+        "label": "YZIZYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.01138810581246897
+        },
+        "label": "YZXIXZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "YZYIIXZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.03765836794307968
+        },
+        "label": "YZYIIYZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.013030122213395706
+        },
+        "label": "YZYIXZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024418228025864675
+        },
+        "label": "YZYIYZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "YZYXZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024841613754402116
+        },
+        "label": "YZYYZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0007036277600324886
+        },
+        "label": "YZZIYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "YZZXIXYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.024628245729683983
+        },
+        "label": "YZZXXZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.013240139917215014
+        },
+        "label": "YZZYIYYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.024628245729683983
+        },
+        "label": "YZZYXZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.017266560724924745
+        },
+        "label": "YZZZYIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.021061897360589416
+        },
+        "label": "YZZZYIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010290902970907602
+        },
+        "label": "YZZZYIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.0010141239253515818
+        },
+        "label": "YZZZYZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.010770994389681817
+        },
+        "label": "YZZZZXXY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.010770994389681817
+        },
+        "label": "YZZZZYXX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.3346121300328115
+        },
+        "label": "ZIIIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.13073805878528394
+        },
+        "label": "ZIIIIIIZ"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.10647068453545304
+        },
+        "label": "ZIIIIIZI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.11598632411711235
+        },
+        "label": "ZIIIIZII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.0898249923593194
+        },
+        "label": "ZIIIZIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.021476825762834488
+        },
+        "label": "ZIIXZZZX"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.021476825762834488
+        },
+        "label": "ZIIYZZZY"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.12005460580671172
+        },
+        "label": "ZIIZIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.011234473400252942
+        },
+        "label": "ZIXZZZXI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.011234473400252942
+        },
+        "label": "ZIYZZZYI"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.07943848632286911
+        },
+        "label": "ZIZIIIII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.023384504139548214
+        },
+        "label": "ZXZZZXII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": -0.023384504139548214
+        },
+        "label": "ZYZZZYII"
+      },
+      {
+        "coefficient": {
+          "imag": 0.0,
+          "real": 0.14526147930807762
+        },
+        "label": "ZZIIIIII"
+      }
+    ]
+  },
+  "pool": {
+    "digest": "sha256:6cf36978cdb4834b83e71a6eda0e14f8ae7d988ca81694608851a04d8ea81823",
+    "name": "OVP_CEO",
+    "operators": [
+      {
+        "ceo_type": "single",
+        "digest": "sha256:1f6d37b0754903fb15cf383cad0c8bb9ee77d704c8fd61d0d588275f2c578b81",
+        "index": 0,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIIIIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIIIIYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2
+        ],
+        "target_orbitals": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:661627766a238ef4395cfd69277bd177fd23b4dd7dca27aaff694752eacf42b5",
+        "index": 1,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIIXIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIIYIIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          4
+        ],
+        "target_orbitals": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:f07939a22345f2578e95b261bc57dbf70b09eff7c0a3fce4d9288035cdbb3e07",
+        "index": 2,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IXIIIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IYIIIIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:09dc2b72d60b5db6b45f4cf083c2a8891e2b7b57b704168a10b845db1e2bca62",
+        "index": 3,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIIIXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIIIYIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3
+        ],
+        "target_orbitals": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:97b15509cd5adc3d870143af66560d29905f8f64fb7eb87441a3aca63e2f8533",
+        "index": 4,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIXIIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIYIIIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          5
+        ],
+        "target_orbitals": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:1ac876e39ca6a7680247c02feaf2e6033074ca8632f7b0e7a703f44a1e9683c4",
+        "index": 5,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "XIIIIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "YIIIIIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:1700a0302fff09f25bfa58e007170661eb8ed12110984f31e0ede1e3e1866a9d",
+        "index": 6,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIIXIYII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIIYIXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          4
+        ],
+        "target_orbitals": [
+          [
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:0eca7a3b87c3497d6bb450dfbc427d44d01a9f71be6a8e28ee4c1794829e085f",
+        "index": 7,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IXIIIYII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IYIIIXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          6
+        ],
+        "target_orbitals": [
+          [
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:d2d6f47b7fb883b83a164dd8d82d39e4eff4e381701191525b3015db38527814",
+        "index": 8,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IIXIYIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IIYIXIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          5
+        ],
+        "target_orbitals": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:324798bbc9c5940d3b08080310fc719494215c6b542b123e3862ab406cd5ba02",
+        "index": 9,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "XIIIYIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "YIIIXIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            7
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          7
+        ],
+        "target_orbitals": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:809fbe0b4e80b32c3f942be4b50fcb2c41818ad9be76986a19ad08391e65a8f0",
+        "index": 10,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "IXIYIIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "IYIXIIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6
+          ]
+        ],
+        "support_orbitals": [
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "single",
+        "digest": "sha256:cdae6a44e28ba8e8d4175e78244580254c3aa63c1a3aa71db679f5b45c0e1316",
+        "index": 11,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            "label": "XIYIIIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            "label": "YIXIIIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            7
+          ]
+        ],
+        "support_orbitals": [
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:c8b1ee29df680e10f0019b20c98774b4a2823b167305cf8981cdef04f91a37b3",
+        "index": 12,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIIXXYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIIXYYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIIYXXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIIYYXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:e3fd2696772d2e2c2d6295b818360be84e5a327ff7beb58643f27135c0b57595",
+        "index": 13,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIIXXXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIIXYXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIIYXYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIIYYYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:a1c3404d9511e900781ef721eeedfaf2b52d9d200c13961ffda070710b6b0c97",
+        "index": 14,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIIXYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIIYYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIIXXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIIYXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:18f2d7b7bfa4fffe891a0d54ae518be5ce36f9402899f4e3333a707ffc8d385b",
+        "index": 15,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIIXXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXIIYXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYIIXYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIIYYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:950d699b60c1c2d7cf64efd1f9bff1220d709b1e53d31b95c0de3f249ccec0e5",
+        "index": 16,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIIXYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIIYYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIIXXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIIYXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:0eebce49b7ffbad6a9adf1e6d243c4f593b55ec2106c9ef0f773aa4ee059be4d",
+        "index": 17,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIIXXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIIIYXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIIIXYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIIYYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:cff8da3e235875a8675cee0d93868343e27493aeb1f889edb5b546d7c1a5e14d",
+        "index": 18,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXXIXY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXYIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYXIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYYIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:ee27f8706fda202025fc458ace2a480a0b5db13f76b5231aada897d2ae228dff",
+        "index": 19,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXXIYX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIXYIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIYXIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYYIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:09e5ae214a9dd3ed8944bd24896d770653353248390e70c7a4f2bee51ac92bcf",
+        "index": 20,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIXIXY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIYIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIXIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIYIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:5ecc080b562e9c8abd2ff5ceb123ef7c2b5d06b58abbb8a2135dc992e6b36e26",
+        "index": 21,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIXIYX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIIYIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIIXIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIYIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:9eb554a273762a74b8d937d20e796dce3ec5c6fc2f81772c3037c431aeac405f",
+        "index": 22,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXIIYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXYIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYXIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYIIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:f0ca6afa0816dd2d242009fe0dc508a15c30d6e33d9ce5aee86d3dd7bd1de533",
+        "index": 23,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXIIXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXYIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYXIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYIIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:32c78f5e5e9b4849d75f90a85624bbd03226c0aa2d749d39644f09eb6a4a14a3",
+        "index": 24,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXIIYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIYIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIXIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYIIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:71e5d4e5cb1e50565108e7c775e1641aad5767780362f420c4a7dc7dbd575cd0",
+        "index": 25,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXIIXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIYIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIXIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYIIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:7aad17656dbd79a11d8e529bcfd34a7dda01b8c40715f7520d5ee15e8756630a",
+        "index": 26,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIIIXY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYIIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXIIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIIIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:2a3e5d2386db905479e3f4e533bd4d2ceb0a7474cee00d6a9d7cdd9a67358894",
+        "index": 27,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIIIYX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYIIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXIIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIIIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:5a7799ad0ec7d8e2eca677aa2c8629dc90369b123dc131cbc3f58bd5fb69c1fa",
+        "index": 28,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIIIYX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIIIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIIIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIIIXY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:db66a16b38d2356a0cc94b7d1d3f14543e9e6da6d3dec65f2e0e7f2fc43fd170",
+        "index": 29,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIIIXY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIIIIXX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIIIIYY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIIIYX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:0ea5fe610720147ae43be74adcf1646dbed093582b1aab0839fa2b08566b33de",
+        "index": 30,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIYXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIYYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIXXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIXYIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:7798a94f934eb3ffc27383735a64f671f9c137dfa569d09c81f36e793f054b41",
+        "index": 31,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXIXXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXIXYIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYIYXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYIYYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:89404e893a5a1767385a3ad0a215ed01f59d45c331a31f051a8207c73a8884ca",
+        "index": 32,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIYXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIYYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIXXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIXYIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:d1a6cab8b0635e24292948d1d197fdb597e29e2be544594113d5ccbd79ee80af",
+        "index": 33,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIIXXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIIXYIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIIYXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIIYYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:7150d3cf534581177d512a9b21a97a141a7f4569969bd8d032e974b242626cf4",
+        "index": 34,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIYIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIXIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:0542e01d38133988b9153e87ab3eb2de0bd4fcf035ef0cf91b1b69b04ae63865",
+        "index": 35,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:e3c9b02995229fdcceba88c36981c31856e3730d19fd272afa64059bb8f947e2",
+        "index": 36,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIYIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:a428bfc37bbfce2e0fb9a915b0a8c54c42f2e8c4d4620e11464f2f2a4ef6b2e5",
+        "index": 37,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIYIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:a54bbd531610bbc9f8e62b52facacd4314f000fad12e3da554c6e29670744040",
+        "index": 38,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:a2500977243e4ea3154fc02cd183b9f49fc55904426400ef55ef47a2ed5b34f9",
+        "index": 39,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXIYIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIYIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIXIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYIXIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:c3b89316916cd38ca0aae42d81d2a758cf6b8fc367ef164ceed1b44fe03d64a1",
+        "index": 40,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIIYIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIIXIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIIYIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:168d30cbd0c7facf1fe065003b3256e17672194388bb6a5f97c381f0579e3062",
+        "index": 41,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIXIIYIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIYIIXIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIIYIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            2,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:d7c213491f8f40c67284f2f5fda410eed0067f16cd4355e22e0e08f7b40dbcec",
+        "index": 42,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXYIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXYYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYXXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYXIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:d90726fc7b3e5dbe5e8adff504e0392ad64e14ba8ad359b708ace0863dbb488c",
+        "index": 43,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXXIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXYXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYXYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYYIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:1eb64843bfeb1fd1acaed5632570ee0ea16702467c7aabfc091802666471f4c7",
+        "index": 44,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXYIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIYYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIXXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYXIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:f2eb6c925212605a69f633fbbc493216180e6cb00c63c48acc35c47778f35706",
+        "index": 45,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXXIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIYXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIXYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYYIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:fc79eef1a7949ed5439f778161e04e7ae75a9061b08cdd4c59a9faff1f33e2e2",
+        "index": 46,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIXIIY"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYIYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXIXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIYIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:0bd78cdfcb76336a83adfcb1035daf34644ef9613152173cf714c89bf7c828c2",
+        "index": 47,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIYIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYIXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXIYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIXIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:c13fbdc27fb3a94010b1ed8bf3f40206462ff4cdcd2ba89916b530f43f9a4198",
+        "index": 48,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIYIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIIYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIIXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIXIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:2eda049d77cc71e6921f9fcb5849adb3939f06a5eb1b5c4a290133fea38b788b",
+        "index": 49,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIXIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIIXIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIIYIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIYIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:03bae82bfa2a6412967fd0302f9341321bf17adf255c3650b96e747bd235c18d",
+        "index": 50,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYXIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYYIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXXIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXYIIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:5e43a781f35358ce9157ab93dc950db95c9eb06fabc8e67be679cc158c676288",
+        "index": 51,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXXIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIXYIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIYXIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYYIIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:6b491b9a5bef7eaed8fa33369e78376ade42f18c924ad7b8af90f0c9b5b117b2",
+        "index": 52,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXYIIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYYIIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXXIIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYXIIIIY"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:ea5ecdcd325e42c67894411be8a5637bb558719c83e93c84ec4f5759058d5634",
+        "index": 53,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXXIIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYXIIIIX"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXYIIIIY"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYYIIIIX"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            0,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:8ed4591349d7aa5b1ab50f0f8f687b1422c61e4d94c11cd986ac97a2a3d16ef7",
+        "index": 54,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXXYXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXYYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYXXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYYXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:7679a5dba9f89c60630c193afacb3d2bf8a3a327b1a0e45547588747bcc7b024",
+        "index": 55,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIXXXYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIXYXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIIYXYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIIYYYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:d36dfb3e5659dca1168128a66ded7bb2df80d45d893c88f9106928ba8a52639e",
+        "index": 56,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIXYXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIYYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIXXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIYXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:7212097a46fafe6d62d5e69724f7b8372cadb46b4807a0ab2700c4d187c1f2b0",
+        "index": 57,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIIXXYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIIYXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIIXYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIIYYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:279b1069eac3bb0afa1bf4af2e7b4c2e3cadf9a7d01963085019db27df0d49ae",
+        "index": 58,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXIXYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXYIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYXIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYIYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:29e6effa5190dbdfc95fd13bfa0b8f7a5f5b45fd1d7a7a7bc38753c127457564",
+        "index": 59,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXIYXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXYIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYXIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYIXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:d0d6c07d0ebf1810cc6f158761eec9c9eeb5c8178a07d526accd5a4f2bbc776e",
+        "index": 60,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXIXYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIYIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIXIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYIYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:e83679dbad27ec4aa2fe1f9d549aecf653d0b3c8cdd2ba5220a540ad0d1540c4",
+        "index": 61,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXIYXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIYIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIXIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYIXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:cb406e784ee8126bf9ba873adabae177d5e73ad900f5830f37caea5086ae94a0",
+        "index": 62,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIIYXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYIIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXIIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIIXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:21e9d1fcc61f3e93a8f3d23a23ba1c6d75269cd3a1a807343a93372f3926978f",
+        "index": 63,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIIXYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYIIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXIIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIIYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:cd90a3b21fb6190a64688065bb10dc81a8c3825f92d175bca37b49503707ed3d",
+        "index": 64,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIIXYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIIIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIIIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIIYXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:d7ae40b8f0f02106809f664a8261f77db96d7742c4441ee18b4957486a166bb6",
+        "index": 65,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIIYXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIIIXXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIIIYYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIIXYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:78045158e26d7783defbe2da2c9d1655b96a90584b351c6b55b125194c47baa1",
+        "index": 66,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIYYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIXYIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:0a5d6134fe48c8e462d8c106adfde0e542f4d8152f0895901cf3e480d8f149e2",
+        "index": 67,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXIXXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXIXYIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYIYXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYIYYIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:70e49af31fa2cf49f4c80320fb56e65dca15f05b9f03c5739062b1813ec5e590",
+        "index": 68,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIYIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIXIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            7
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:d044cd3b5edf99fa08c83a1cb5f0ef6f34f04112c00a55064aac1af6007cf30a",
+        "index": 69,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIYIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIXIYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIYIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            7
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:88071ecdda16d8ada74a77de2deb51e589146f8becc027593252bf23012a8a76",
+        "index": 70,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIYIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:82ed6ec7bc9a48415e5c618fb40a9aa67206abaad4c9acbb5765b3bd9ef824f9",
+        "index": 71,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIXIYIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIYIXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIYIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:f114f73bdd6ed1d1033e5041ceccd0d61a41d6b245e9b7b36dbb92429ac5bac8",
+        "index": 72,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIXIYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYIYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIYIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:d4e9367410263357585a604374ef4abf5cf906a3208bc79d2e39fc68caf36eac",
+        "index": 73,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXIYIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIYIXIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIXIYIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYIXIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:718d8296ebb95cdce22709575c0a082b3a5f7d7b81ebe358444e859b91146e48",
+        "index": 74,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXYIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYYIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXXIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYXIIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:f21fb61ebcb395fe9c8d68934a76a49ad144e43fcf279bb8e841187e099ea69c",
+        "index": 75,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXXIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYXIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXYIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYYIIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:992ad422521aa35f643cdab5fd619dfea6951defa0858e44ea7136a75535ca83",
+        "index": 76,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIXIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIYIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIXIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIYIIXI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:209439b46ef74155c441489197741987ac53b59153b7d3df02e6eb9e14fb7432",
+        "index": 77,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIYIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIXIIXI"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIYIIYI"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIXIIYI"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:7ec55c49bed93e352513b8d2f63400a5b5cfb80e20ac5f7849e65c949cda68af",
+        "index": 78,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXYXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXYYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYXXXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYXYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:3fc992257cd234c741c48db8f5c95cf46ea3b05fea8dcc6e1cc8ed4c1c4eb614",
+        "index": 79,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIXXXYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIXYXXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IIYXYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IIYYYXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:b79f089ac11325ecd4783de2f625634a55bea7b003a39db20d779f44c284a9a2",
+        "index": 80,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXYXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIYYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIXXXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYXYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:458520f1a5d61f9e281649dd67aec38fcb1b769355a0417430007db83a174404",
+        "index": 81,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIIXXYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIIYXXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIIXYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIIYYXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:d0e879c98369e20065beb934031e441613f5fa8d415e03111fc3079ce3a113af",
+        "index": 82,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIXYII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYIYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXIXXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIYXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:31a227e9d711950af5ade7adce40260239f0326d09d227969f6ec32db65c5417",
+        "index": 83,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXIYXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYIXXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXIYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYIXYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:fc185b64f7158f979dce8991783bf4e1cd044b440c91d0b3582752cf1d846954",
+        "index": 84,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIYXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIIYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIIXXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIXYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:58607f31835ac2c2b4d75da5b0815fe1b02de6a9892a8f7d136f51df087eca44",
+        "index": 85,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIIXYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIIXXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIIYYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIIYXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:a9ed04a335b9e7f82210c0b376f85d63582add2a3f1143d7b5a334f907c8b566",
+        "index": 86,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYXIXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIYYIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXXIXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIXYIYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:598ed1a04bc284faef995573ac8e952d899ba2197f313c2f12b7af2142f1ea9d",
+        "index": 87,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XIXXIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XIXYIXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YIYXIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YIYYIXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:8a97fdc3973b89f05b06a5374ec5a9869082f99f6a10faafb8776cd6c03cd2ed",
+        "index": 88,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXYIIXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYYIIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXXIIXII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYXIIYII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:640a932c6d9765ecd839802557b7c1026d71607d16724245809680e78ba2a0a1",
+        "index": 89,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXXIIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYXIIXII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXYIIYII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYYIIXII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:d5e94d384b49f4ba7d4fc49c0f1b82159007d9fdb447d976f5945bd6da595c51",
+        "index": 90,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXYXIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXYYYIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYXXXIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYXYIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:ec99b42fe06711233fb72d88e1702e141b5a18166b7dbb3d3fb7de51748ff8f2",
+        "index": 91,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IXXXYIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IXYXXIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "IYXYYIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "IYYYXIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "target_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:fc8c0b97a6ca4813b01ec354b5e01a3bf46abedd4ae036094ccf262ad570bf4d",
+        "index": 92,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIXYIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYIYYIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXIXXIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIYXIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:5f6486b6a23ab33312b094d749b2d787cd12f410385aecb1864942a52c2e12b5",
+        "index": 93,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXIYXIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYIXXIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXIYYIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYIXYIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "sum",
+        "digest": "sha256:9a6daf47a3e4863a93bdbeb01d2b315726d2479fc3cc59885363b1c7b13e1478",
+        "index": 94,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXYXIIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XYYYIIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YXXXIIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYXYIIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "ceo_type": "diff",
+        "digest": "sha256:a80874515c5e74f820d31889cae99f399fd25ab99cefc85ae8caf6121ab55d2d",
+        "index": 95,
+        "normalization": {
+          "kind": "l1_pauli_coefficients",
+          "value": 1.0
+        },
+        "pauli_terms": [
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "XXXYIIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "XYXXIIII"
+          },
+          {
+            "coefficient": {
+              "imag": 0.25,
+              "real": 0.0
+            },
+            "label": "YXYYIIII"
+          },
+          {
+            "coefficient": {
+              "imag": -0.25,
+              "real": 0.0
+            },
+            "label": "YYYXIIII"
+          }
+        ],
+        "source_orbitals": [
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "support_orbitals": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "target_orbitals": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  "schema": "quemb.ceo-ovp-manifest/v1",
+  "schema_version": 1,
+  "source": {
+    "commit": "c0d825e537d9e13e31394d841c0930ee2389d364242c6585dbafb30b79c90a1d",
+    "pool_class": "OVP_CEO",
+    "pool_options": {
+      "diff": true,
+      "fermionic_swaps": false,
+      "sum": true
+    },
+    "repository": "/oscar/scratch/dpeng17/quantum-brown-v2/ceo-adapt-vqe"
+  },
+  "system": {
+    "hf_bitstring": "11110000",
+    "n_electrons": 4,
+    "n_qubits": 8
+  }
+}

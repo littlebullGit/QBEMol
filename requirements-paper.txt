@@ -1,0 +1,6 @@
+chemcoord @ git+https://github.com/mcocdawc/chemcoord.git@e7c0369349a7704e4a5a61899ad85c80a74eb626
+qiskit==2.2.3
+qiskit-aer==0.17.2
+qiskit-algorithms==0.4.0
+qiskit-nature==0.7.2
+pyscf==2.11.0
